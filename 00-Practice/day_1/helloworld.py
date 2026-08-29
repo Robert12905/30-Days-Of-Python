@@ -48,5 +48,18 @@ print(
     type([1,2,3,4,5]),
     type((1,2,3,4,5)),
     type(set()),
-    type(muscle)
+    type(muscle),
+    end = "\n\n"
 )
+
+# Find an Euclidean distance between (2, 3) and (10, 8)
+
+euclid = (
+    (
+        ((2-10)**2)
+      + 
+        ((3-8)**2)
+    )
+        **.5
+)
+print(euclid)
